@@ -1,6 +1,7 @@
 ﻿using InterdanTest.API.Models;
 using Microsoft.AspNetCore.Mvc;
 using System;
+using System.Threading;
 using System.Threading.Tasks;
 
 namespace InterdanTest.API.Controllers
@@ -15,7 +16,7 @@ namespace InterdanTest.API.Controllers
 
         [HttpGet]
         [ProducesResponseType(200)]
-        public async Task<ActionResult<GetModelsResponse>> Get([FromQuery] GetModelsRequest request)
+        public async Task<ActionResult<GetModelsResponse>> Get([FromQuery] GetModelsRequest request, CancellationToken ct)
         {
             throw new NotImplementedException();
         }
