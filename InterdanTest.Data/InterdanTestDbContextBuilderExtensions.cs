@@ -25,10 +25,10 @@ namespace InterdanTest.Data
                 context.Models.Add(new Model() { Id = 4, BarndId = 2, Type = ModelType.Van,      Name = "Jumper" });
 
                 // engines
-                context.Engines.Add(new Engine() { Id = 1, Name = "1.2 PureTech", Fuel = FuelType.Petrol, Gear = Gearype.Manual });
-                context.Engines.Add(new Engine() { Id = 2, Name = "1.2 PureTech", Fuel = FuelType.Petrol, Gear = Gearype.Automatic });
-                context.Engines.Add(new Engine() { Id = 3, Name = "1.5 BlueHDI",  Fuel = FuelType.Diesel, Gear = Gearype.Automatic });
-                context.Engines.Add(new Engine() { Id = 4, Name = "2.0 BlueHDI",  Fuel = FuelType.Diesel, Gear = Gearype.Manual });
+                context.Engines.Add(new Engine() { Id = 1, Name = "1.2 PureTech", Fuel = FuelType.Petrol, Gear = GearType.Manual });
+                context.Engines.Add(new Engine() { Id = 2, Name = "1.2 PureTech", Fuel = FuelType.Petrol, Gear = GearType.Automatic });
+                context.Engines.Add(new Engine() { Id = 3, Name = "1.5 BlueHDI",  Fuel = FuelType.Diesel, Gear = GearType.Automatic });
+                context.Engines.Add(new Engine() { Id = 4, Name = "2.0 BlueHDI",  Fuel = FuelType.Diesel, Gear = GearType.Manual });
 
                 // colors
                 context.Colors.Add(new Color() { Id = 1, Name = "White" });

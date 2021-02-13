@@ -11,7 +11,7 @@ namespace InterdanTest.Data.Models
 
         public FuelType Fuel { get; set; }
 
-        public Gearype Gear { get; set; }
+        public GearType Gear { get; set; }
 
         public ICollection<Car> Cars { get; set; }
     }
