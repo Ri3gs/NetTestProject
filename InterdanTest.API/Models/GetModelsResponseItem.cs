@@ -18,7 +18,7 @@ namespace InterdanTest.API.Models
 
         public FuelType Fuel { get; set; }
 
-        public Gearype Gear { get; set; }
+        public GearType Gear { get; set; }
 
         public string Color { get; set; }
 

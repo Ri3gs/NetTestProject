@@ -1,6 +1,6 @@
 ﻿namespace InterdanTest.Common.Enums
 {
-    public enum Gearype
+    public enum GearType
     {
         Manual = 1,
         Automatic,

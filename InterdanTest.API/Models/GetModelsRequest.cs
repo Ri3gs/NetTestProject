@@ -11,7 +11,7 @@ namespace InterdanTest.API.Models
 
         public HashSet<FuelType> Fuel { get; set; }
 
-        public HashSet<Gearype> Gear { get; set; }
+        public HashSet<GearType> Gear { get; set; }
 
         public int? MinPrice { get; set; }
 
