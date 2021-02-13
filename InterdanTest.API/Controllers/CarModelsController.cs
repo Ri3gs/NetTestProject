@@ -8,15 +8,15 @@ namespace InterdanTest.API.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class ModelsController : ControllerBase
+    public class CarModelsController : ControllerBase
     {
-        public ModelsController()
+        public CarModelsController()
         {
         }
 
         [HttpGet]
         [ProducesResponseType(200)]
-        public async Task<ActionResult<GetModelsResponse>> Get([FromQuery] GetModelsRequest request, CancellationToken ct)
+        public async Task<ActionResult<GetCarModelsResponse>> Get([FromQuery] GetCarModelsRequest request, CancellationToken ct)
         {
             throw new NotImplementedException();
         }

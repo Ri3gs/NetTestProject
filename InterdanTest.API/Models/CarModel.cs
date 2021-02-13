@@ -2,7 +2,7 @@
 
 namespace InterdanTest.API.Models
 {
-    public class GetModelsResponseItem
+    public class CarModel
     {
         public int CarId { get; set; }
 

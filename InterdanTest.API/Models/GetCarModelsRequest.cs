@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace InterdanTest.API.Models
 {
-    public class GetModelsRequest
+    public class GetCarModelsRequest
     {
         public HashSet<string> Brand { get; set; }
 
