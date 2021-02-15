@@ -1,17 +1,22 @@
 ﻿using InterdanTest.Common.Enums;
+using Microsoft.AspNetCore.Mvc;
 using System.Collections.Generic;
 
 namespace InterdanTest.API.Models
 {
     public class GetCarModelsRequest
     {
-        public HashSet<string> Brand { get; set; }
+        [FromQuery(Name = "Brand")]
+        public HashSet<string> Brands { get; set; }
 
-        public HashSet<ModelType> ModelType { get; set; }
+        [FromQuery(Name = "ModelType")]
+        public HashSet<ModelType> ModelTypes { get; set; }
 
-        public HashSet<FuelType> Fuel { get; set; }
+        [FromQuery(Name = "Fuel")]
+        public HashSet<FuelType> Fuels { get; set; }
 
-        public HashSet<GearType> Gear { get; set; }
+        [FromQuery(Name = "Gear")]
+        public HashSet<GearType> Gears { get; set; }
 
         public int? MinPrice { get; set; }
 
